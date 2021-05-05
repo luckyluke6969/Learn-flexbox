@@ -8,30 +8,40 @@
     height: 100vh; 
     border: 20px solid rgb(0, 0, 0);
     display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: stretch;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: flex-start;
+
 }
 
 .child1 {
     width: 200px;
     height: 200px;
     background: rgb(77, 7, 238);
+    flex: 1 1 300px;
+    
 }
 
 .child2 {
     width: 200px;
     height: 200px;
     background: rgba(158, 15, 15, 0.699);
+    flex: 1 1 300px;
 }
 
 .child3 {
     width: 200px;
     height: 200px;
     background: rgb(147, 41, 168);
+    flex: 1 1 300px;
 }
 
+/*
 .child4 {
     width: 200px;
     height: 200px;
     background: rgb(41, 168, 41);
 }
+*/
