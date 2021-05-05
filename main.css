@@ -1,0 +1,37 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+.parent {
+    height: 100vh; 
+    border: 20px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.child1 {
+    width: 200px;
+    height: 200px;
+    background: rgb(77, 7, 238);
+}
+
+.child2 {
+    width: 200px;
+    height: 200px;
+    background: rgba(158, 15, 15, 0.699);
+}
+
+.child3 {
+    width: 200px;
+    height: 200px;
+    background: rgb(147, 41, 168);
+}
+
+.child4 {
+    width: 200px;
+    height: 200px;
+    background: rgb(41, 168, 41);
+}
